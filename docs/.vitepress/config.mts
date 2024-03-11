@@ -4,8 +4,8 @@ import { sidebar } from './relaConf/sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "blogs",
-  title: "个人博客",// 标题
+  base: "/blogs/",
+  title: "blogs",// 标题
   description: "blog-web",// 描述
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
